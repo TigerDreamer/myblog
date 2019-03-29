@@ -23,7 +23,7 @@ class IndexView(ListView):
     context_object_name = 'post_list'
 
     #分页设置,每一页显示多少条
-    paginate_by = 2
+    paginate_by = 10
 
 def detail(request,pk):
     #post是要发表的内容
